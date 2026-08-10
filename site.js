@@ -1,0 +1,1 @@
+const b=document.querySelector('.menu'),n=document.querySelector('.links');if(b&&n)b.onclick=()=>n.classList.toggle('open');const q=document.querySelector('#pub-search');if(q)q.oninput=e=>document.querySelectorAll('.pub').forEach(x=>x.style.display=x.innerText.toLowerCase().includes(e.target.value.toLowerCase())?'':'none');
